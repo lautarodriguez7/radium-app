@@ -1,0 +1,10 @@
+.mainContainer {
+    height: 100vh;
+    widows: 100%;
+}
+
+.mainHeader {
+    height: 60px;
+    widows: 100%;
+    background: blue;
+}

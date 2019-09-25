@@ -1,0 +1,13 @@
+.mainContainer {
+    height: 100vh;
+    widows: 100%;
+}
+
+.mainHeader {
+    height: 60px;
+    widows: 100%;
+    background: blue;
+    color: white;
+    display: flex;
+    font-size: 40px;
+}
