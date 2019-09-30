@@ -1,15 +1,16 @@
 import React from 'react';
 import './main-screen.css';
-import header from '../header/header.js'
+import Header from '../header/header'
+
 class MainScreen extends React.Component {
   render() {
-     return (
+    return (
       <div className="mainContainer">
-          <header />
+          <Header title='Hola mundo!!' />
       </div>
     );
   }
- 
+  
 }
 
 export default MainScreen;

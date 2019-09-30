@@ -1,16 +1,9 @@
 import React from 'react';
-import App from './components/app/app'
-import MainScreen from './components/routes/main-screen/main-screen'
+import ReactDOM from 'react-dom';
+import './index.css';
+import Route from './components/routes/index';
+import * as serviceWorker from './serviceWorker';
 
-class Route extends React.Component {
-  render() {
-     return (
-    <App>
-        <MainScreen />
-    </App>
-    );
-  }
- 
-}
+ReactDOM.render(<Route />, document.getElementById('root'));
 
-export default Route;
+serviceWorker.unregister();
